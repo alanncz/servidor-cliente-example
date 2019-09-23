@@ -1,9 +1,9 @@
 
-import alann.tcc.api.MonitoringServicesMemory;
-import alann.tcc.api.MonitoringServicesSizePacket;
-import alann.tcc.api.MonitoringServicesThread;
-import alann.tcc.api.MonitoringServicesTime;
-import alann.tcc.api.RegistryId;
+import alann.tcc.api.monitoring.MonitoringServicesMemory;
+import alann.tcc.api.monitoring.MonitoringServicesSizePacket;
+import alann.tcc.api.monitoring.MonitoringServicesThread;
+import alann.tcc.api.monitoring.MonitoringServicesTime;
+import alann.tcc.api.util.RegistryId;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.rmi.RemoteException;

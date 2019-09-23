@@ -1,7 +1,7 @@
 
-import alann.tcc.api.Configuration;
-import alann.tcc.api.RegistryId;
-import alann.tcc.api.RegistryIdManager;
+import alann.tcc.api.configuration.Configuration;
+import alann.tcc.api.util.RegistryId;
+import alann.tcc.api.util.RegistryIdManager;
 import alann.tcc.shared.model.TypeData;
 import java.io.IOException;
 import java.net.UnknownHostException;
@@ -41,7 +41,7 @@ public class ClientApp {
 
     public static void Configuration() throws RemoteException, NotBoundException {
 
-        String idApp = "c8e8c2ea8e6f421b8a4b7a4ce63a8171";
+        String idApp = "2e249d42d3a240319d236273309b216b";
         String hostCollector = "localhost";
         Configuration.appConfiguration(idApp);
         Configuration.configurationCollector(hostCollector);

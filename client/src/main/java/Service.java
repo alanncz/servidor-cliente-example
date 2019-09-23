@@ -1,5 +1,5 @@
 
-import alann.tcc.api.RegistryId;
+import alann.tcc.api.util.RegistryId;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
